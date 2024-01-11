@@ -1,3 +1,4 @@
 
 merkel_rust/target/*
 wallets/*
+candy-machinev3-simple-ui/node_modules/*

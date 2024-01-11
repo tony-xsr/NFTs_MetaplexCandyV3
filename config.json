@@ -1,0 +1,104 @@
+{
+  "tokenStandard": "nft",
+  "number": 10,
+  "symbol": "NB",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "AP34FTLEJggrnAjApZB3V99G59Q3niVBDHjq55qyuY3Q",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+    },
+    "groups": [
+      {
+        "label": "OG",
+        "guards": {
+          "solPayment": {
+            "value": 0.1,
+            "destination": "3HSt63DeavEkS7G3V8pr6e2cr9Sia1ovooRMzwG1RuaB"
+          },
+          "startDate": {
+            "date": "2024-01-09T12:00:00Z"
+          },
+          "endDate": {
+            "date": "2024-03-27T04:00:00Z"
+          },
+          "botTax": {
+            "value": 0.01,
+            "lastInstruction": true
+          },
+          "mintLimit": {
+            "id": 1,
+            "limit": 2
+          },
+          "allowList": {
+            "merkleRoot": "ecb91481165ad66846c8fa0905b44fcccaabb51473fbdb014e017fd961054bce"
+          }
+        }
+      },
+      {
+        "label": "WL",
+        "guards": {
+          "solPayment": {
+            "value": 0.2,
+            "destination": "3HSt63DeavEkS7G3V8pr6e2cr9Sia1ovooRMzwG1RuaB"
+          },
+          "startDate": {
+            "date": "2024-01-11T06:00:00Z"
+          },
+          "endDate": {
+            "date": "2024-03-27T04:00:00Z"
+          },
+          "botTax": {
+            "value": 0.02,
+            "lastInstruction": true
+          },
+          "mintLimit": {
+            "id": 2,
+            "limit": 1
+          },
+          "allowList": {
+            "merkleRoot": "5e6d48e0f27c5e25bfcf17312bb32883e290d0486d471dcc7bd8169a7202756d"
+          }
+        }
+      },
+      {
+        "label": "public",
+        "guards": {
+          "solPayment": {
+            "value": 0.3,
+            "destination": "3HSt63DeavEkS7G3V8pr6e2cr9Sia1ovooRMzwG1RuaB"
+          },
+          "startDate": {
+            "date": "2024-01-11T06:00:00Z"
+          },
+          "endDate": {
+            "date": "2024-03-27T04:00:00Z"
+          },
+          "botTax": {
+            "value": 0.03,
+            "lastInstruction": true
+          },
+          "mintLimit": {
+            "id": 3,
+            "limit": 1
+          }
+        }
+      }
+    ]
+  },
+  "maxEditionSupply": null
+}
