@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OGs",
+    "description": "Only selected wallets can mint.",
+    "groups": [
+      {
+        "label": "OG"
+      }
+    ],
+    "allowList": [
+      "D1zbwtqesJg4j47BAqLZ4UEfqgLNmn8Rnbqz42uzCuqm",
+      "64hXByruLythJg4L46eus47FxNHMzFBU2ntadRE9yPpr"
+    ]
+  },
+  {
+    "title": "Wl",
+    "description": "Only users who are whitelisted can mint.",
+    "groups": [
+      {
+        "label": "WL"
+      }
+    ],
+    "allowList": [
+      "3cnWESFiTamZSCgiCcdUmwHwkkro5CsVtSfEaJdu8Ba6",
+      "BwpFU4Ma6SQk6ZMpsBV2VuoPYkoQXtDQYg3idNobLDKv"
+    ]
+  },
+  {
+    "title": "Public",
+    "description": "Everyone can mint, no limit.",
+    "groups": [
+      {
+        "label": "public"
+      }
+    ]
+  }
+]
