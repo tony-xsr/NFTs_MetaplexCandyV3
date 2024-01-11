@@ -1,3 +1,3 @@
 
 merkel_rust/target/*
-./wallets/*
+wallets/*
